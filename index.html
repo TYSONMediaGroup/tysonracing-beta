@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en" class="intro-animated-page" data-theme="noir">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TYSON Racing — tr.tysonmediagroup.org</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Nunito:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main Top Navigation Header -->
+    <header class="main-header">
+        <div class="container-wide nav-container">
+            <a href="#home" class="nav-logo" aria-label="TYSON Racing Home">
+                <img src="assets/LOGOSFORGEMINI/TYSONRacingBanner.png" alt="TYSON Racing" class="logo-img">
+            </a>
+
+            <nav class="main-nav" id="main-nav">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#garage" class="nav-link">Garage & Fleet</a>
+                <a href="#caymans" class="nav-link">Cayman Series</a>
+                
+                <a href="#telemetry" class="nav-link">Telemetry & Endpoints</a>
+                <a href="#about" class="nav-link">Motorsport Ethos</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="https://www.youtube.com/watch?v=VEmux2kX6NQ" target="_blank" class="btn btn-outline btn-sm" title="Watch Broadcast">
+                    <span>Watch Release &nearr;</span>
+                </a>
+                <button class="settings-btn" id="settings-toggle-btn" aria-label="Open Appearance Settings" title="Appearance Settings">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="3"></circle>
+                        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                    </svg>
+                </button>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="spa-main-content">
+        <!-- ===================================================================
+             VIEW 1: HOME (#home)
+             =================================================================== -->
+        <div id="view-home" class="page-view active-view">
+            <!-- Hero Section with Traced 'tr.tysonmediagroup.org' Title & 'Stillness in Motion' -->
+            <section class="hero-section">
+                <!-- Ambient Crossfading Background Carousel -->
+                <div class="hero-bg-carousel" aria-hidden="true">
+                    <div class="hero-bg-slide active" style="background-image: url('assets/LOGOSFORGEMINI/323jakebackgroundimage.jpg');"></div>
+                    <div class="hero-bg-slide" style="background-image: url('assets/LOGOSFORGEMINI/11jacksonbackgroundimage.jpg');"></div>
+                    <div class="hero-bg-slide" style="background-image: url('assets/LOGOSFORGEMINI/1nickholasbackgroundimage.jpg');"></div>
+                    <div class="hero-bg-slide" style="background-image: url('assets/LOGOSFORGEMINI/8estonbackgroundimage.jpg');"></div>
+                    <div class="hero-bg-slide" style="background-image: url('assets/LOGOSFORGEMINI/BackgroundImage1.png');"></div>
+                    <div class="hero-bg-overlay"></div>
+                </div>
+
+                <div class="container-wide hero-container">
+                    <div class="hero-tag-wrap">
+                        <span class="editorial-tag">TYSON MOTORSPORT &bull; BEAMNG.DRIVE TELEMETRY</span>
+                    </div>
+
+                    <!-- Centerpiece Title: Exact SVG Letter-by-Letter Trace -->
+                    <div class="hero-domain-stage">
+                        <svg class="domain-hero-svg" viewBox="0 0 980 110" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <style>
+                                    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400;1,600&amp;display=block');
+                                    .domain-hero-text {
+                                        font-family: 'Cormorant Garamond', Georgia, serif !important;
+                                        font-style: italic !important;
+                                    }
+                                </style>
+                            </defs>
+                            <text x="50%" y="62%" text-anchor="middle" dominant-baseline="middle" class="domain-hero-text">
+                                <tspan class="trace-char trace-c1">t</tspan><tspan class="trace-char trace-c2">r</tspan><tspan class="trace-char trace-c3">.</tspan><tspan class="trace-char trace-c4">t</tspan><tspan class="trace-char trace-c5">y</tspan><tspan class="trace-char trace-c6">s</tspan><tspan class="trace-char trace-c7">o</tspan><tspan class="trace-char trace-c8">n</tspan><tspan class="trace-char trace-c9">m</tspan><tspan class="trace-char trace-c10">e</tspan><tspan class="trace-char trace-c11">d</tspan><tspan class="trace-char trace-c12">i</tspan><tspan class="trace-char trace-c13">a</tspan><tspan class="trace-char trace-c14">g</tspan><tspan class="trace-char trace-c15">r</tspan><tspan class="trace-char trace-c16">o</tspan><tspan class="trace-char trace-c17">u</tspan><tspan class="trace-char trace-c18">p</tspan><tspan class="trace-char trace-c19">.</tspan><tspan class="trace-char trace-c20">o</tspan><tspan class="trace-char trace-c21">r</tspan><tspan class="trace-char trace-c22">g</tspan>
+                            </text>
+                        </svg>
+                    </div>
+
+                    <!-- Tagline in Cormorant Garamond: Stillness in Motion -->
+                    <h2 class="hero-tagline-title">
+                        Stillness in Motion &bull; Pure Telemetry &amp; Speed
+                    </h2>
+
+                    <!-- Hero Action Buttons -->
+                    <div class="hero-cta-group">
+                        <a href="#caymans" class="btn btn-primary">
+                            <span>Explore Cayman Fleet &rarr;</span>
+                        </a>
+                        <a href="#telemetry" class="btn btn-secondary">
+                            <span>Telemetry & SimHub</span>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=VEmux2kX6NQ" target="_blank" class="btn btn-youtube-cta" title="Watch Official Racing Premiere">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#ff0033"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                            <span>TYSON Racing Film</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Home Content Sections -->
+            <div class="home-content-section">
+                <!-- Featured Cayman Grid with Real Car Backdrop Imagery -->
+                <section class="section-padding" style="border-top: none; padding-top: 2rem;">
+                    <div class="container-wide">
+                        <div class="section-header-row">
+                            <div>
+                                <span class="editorial-tag">OFFICIAL ROSTER</span>
+                                <h2 class="editorial-title">Featured Cayman Race Fleet</h2>
+                            </div>
+                            <a href="#caymans" class="btn btn-outline btn-sm">All Cayman Nodes &rarr;</a>
+                        </div>
+
+                        <div class="grid-4">
+                            <!-- 323 Jake -->
+                            <div class="car-spotlight-card" style="background-image: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.94) 80%), url('assets/LOGOSFORGEMINI/323jakebackgroundimage.jpg');">
+                                <div class="car-spotlight-content">
+                                    <span class="tajam-badge">323jake</span>
+                                    <h3>2016 Cayman GT4</h3>
+                                    <p>Our flagship turbocharged 2016 Cayman GT4 with full CAN-bus telemetry integration</p>
+                                    <div class="car-spotlight-meta">
+                                        <code>323.caymans.tr.tysonmediagroup.org</code>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 11 Jackson -->
+                            <div class="car-spotlight-card" style="background-image: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.94) 80%), url('assets/LOGOSFORGEMINI/11jacksonbackgroundimage.jpg');">
+                                <div class="car-spotlight-content">
+                                    <span class="tajam-badge">11jackson</span>
+                                    <h3>2023 Cayman GT4 RS</h3>
+                                    <p>2023 Cayman GT4 RS equipped with our signature intimidating rear aerodynamic light bar</p>
+                                    <div class="car-spotlight-meta">
+                                        <code>11.caymans.tr.tysonmediagroup.org</code>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 1 Nicolas -->
+                            <div class="car-spotlight-card" style="background-image: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.94) 80%), url('assets/LOGOSFORGEMINI/1nickholasbackgroundimage.jpg');">
+                                <div class="car-spotlight-content">
+                                    <span class="tajam-badge">1nicolas</span>
+                                    <h3>2016 Cayman</h3>
+                                    <p>Naturally aspirated flat-six tuned for pure acoustics and mechanical feedback &bull; Driver: T.CUSTINE</p>
+                                    <div class="car-spotlight-meta">
+                                        <code>cayman.tr.tysonmediagroup.org</code>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 8 Eston -->
+                            <div class="car-spotlight-card" style="background-image: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.94) 80%), url('assets/LOGOSFORGEMINI/8estonbackgroundimage.jpg');">
+                                <div class="car-spotlight-content">
+                                    <span class="tajam-badge">8eston</span>
+                                    <h3>2025 Cayman GT4 RS</h3>
+                                    <p>2025 Cayman GT4 RS with custom rear light bar and long-stint endurance racing setup</p>
+                                    <div class="car-spotlight-meta">
+                                        <code>8.caymans.tr.tysonmediagroup.org</code>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Fleet Pillars -->
+                <section class="section-padding">
+                    <div class="container-wide">
+                        <div class="section-header-row">
+                            <div>
+                                <span class="editorial-tag">OPERATIONAL PILLARS</span>
+                                <h2 class="editorial-title">The TYSON Racing Grid</h2>
+                            </div>
+                            <a href="#garage" class="btn btn-outline btn-sm">Full Fleet Directory &rarr;</a>
+                        </div>
+
+                        <div class="grid-3">
+                            <div class="card">
+                                <span class="card-num">01</span>
+                                <span class="badge-tag">PORSCHE MOTORSPORT</span>
+                                <h3>Porsche 718 &amp; 981 Caymans</h3>
+                                <p>Mid-engine balance, telepathic steering fidelity, and high-revving boxer powerplants. Engineered and driven across BeamNG and SimHub environments (11JACKSON, 1NICOLAS, 8ESTON, and 323JAKE).</p>
+                                <div style="margin-top: 2rem;">
+                                    <a href="#caymans" class="btn btn-outline btn-sm">Cayman Fleet &rarr;</a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <span class="card-num">02</span>
+                                <span class="badge-tag">VEHICLE CHASSIS & RIGS</span>
+                                <h3>SimHub Telemetry &amp; Rigs</h3>
+                                <p>CAN-bus data logging, tire slip angles, differential locking telemetry, and high-load support rigs (including node <code>1.trucks.tr.tysonmediagroup.org</code>) calibrated in BeamNG.drive.</p>
+                                <div style="margin-top: 2rem;">
+                                    <a href="#telemetry" class="btn btn-outline btn-sm">Telemetry Specs &rarr;</a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <span class="card-num">03</span>
+                                <span class="badge-tag">SIMHUB &amp; MYT5S</span>
+                                <h3>Live Telemetry &amp; Hubs</h3>
+                                <p>Distributed sim telemetry endpoints powered by myT5S. Real-time pedal traces, tire thermals, differential lock feedback, and server node stats for competitive BeamNG endurance.</p>
+                                <div style="margin-top: 2rem;">
+                                    <a href="#telemetry" class="btn btn-outline btn-sm">Telemetry Network &rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Featured Racing Video Showcases -->
+                <section class="section-padding">
+                    <div class="container-wide">
+                        <div class="section-header-row">
+                            <div>
+                                <span class="editorial-tag">OFFICIAL BROADCASTS</span>
+                                <h2 class="editorial-title">Featured Racing Releases</h2>
+                            </div>
+                            <a href="https://youtube.com/@tysonmediagroup" target="_blank" class="btn btn-outline btn-sm">YouTube Channel &nearr;</a>
+                        </div>
+
+                        <div class="grid-3">
+                            <div class="racing-card">
+                                <div class="racing-thumb-wrap">
+                                    <img src="https://i.ytimg.com/vi/VEmux2kX6NQ/hqdefault.jpg" alt="TYSON Racing" class="racing-thumb-img">
+                                    <span class="racing-duration-badge">HD</span>
+                                    <a href="https://www.youtube.com/watch?v=VEmux2kX6NQ" target="_blank" class="racing-play-overlay">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff"><path d="M8 5v14l11-7z"/></svg>
+                                    </a>
+                                </div>
+                                <div class="racing-info">
+                                    <span class="racing-tag">FLAGSHIP PREMIERE</span>
+                                    <h3>TYSON Racing</h3>
+                                    <p>Official introduction to TYSON Racing &bull; Sim &amp; Real Physics in BeamNG.Drive</p>
+                                </div>
+                            </div>
+
+                            <div class="racing-card">
+                                <div class="racing-thumb-wrap">
+                                    <img src="https://i.ytimg.com/vi/MZu8pFT3KQE/hqdefault.jpg" alt="11JACKSON Porsche Cayman 718" class="racing-thumb-img">
+                                    <span class="racing-duration-badge">HD</span>
+                                    <a href="https://www.youtube.com/watch?v=MZu8pFT3KQE" target="_blank" class="racing-play-overlay">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff"><path d="M8 5v14l11-7z"/></svg>
+                                    </a>
+                                </div>
+                                <div class="racing-info">
+                                    <span class="racing-tag">CAYMAN SERIES</span>
+                                    <h3><span class="tajam-inline">11jackson</span> by TYSON Racing</h3>
+                                    <p>2023 Porsche Cayman 718 &bull; Track Telemetry &amp; Sound Evaluation</p>
+                                </div>
+                            </div>
+
+                            <div class="racing-card">
+                                <div class="racing-thumb-wrap">
+                                    <img src="https://i.ytimg.com/vi/qBp9h8yo5as/hqdefault.jpg" alt="1994 Ford F-150 Night Drive" class="racing-thumb-img">
+                                    <span class="racing-duration-badge">HD</span>
+                                    <a href="https://www.youtube.com/watch?v=qBp9h8yo5as" target="_blank" class="racing-play-overlay">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff"><path d="M8 5v14l11-7z"/></svg>
+                                    </a>
+                                </div>
+                                <div class="racing-info">
+                                    <span class="racing-tag">TRUCK DIVISION</span>
+                                    <h3>1994 Ford F-150 | POV Night Drive</h3>
+                                    <p>BeamNG.Drive &bull; 5.0 V8 OBS Atmosphere &amp; Cockpit Telemetry</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- ===================================================================
+             VIEW 2: GARAGE & FLEET (#garage)
+             =================================================================== -->
+        <div id="view-garage" class="page-view">
+            <section class="page-header">
+                <div class="container-wide">
+                    <span class="editorial-tag">BEAMNG.DRIVE SIMULATION FLEET</span>
+                    <h1 class="page-title">The Racing Garage</h1>
+                    <p class="page-subtitle">
+                        Every vehicle in the TYSON Racing roster is benchmarked in BeamNG.drive for chassis stiffness, steering angle geometry, mechanical throttle response, and acoustic fidelity.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section-padding">
+                <div class="container-wide">
+                    <div class="grid-3">
+                        <div class="card">
+                            <span class="card-num"><span class="tajam-inline">323jake</span></span>
+                            <span class="badge-tag">FLAGSHIP TURBOCHARGED CHASSIS</span>
+                            <h3>2016 Porsche Cayman GT4</h3>
+                            <p>Our flagship turbocharged 2016 Cayman GT4 platform. CAN-bus logging relay at <code>323.caymans.tr.tysonmediagroup.org</code>.</p>
+                        </div>
+                        <div class="card">
+                            <span class="card-num"><span class="tajam-inline">11jackson</span></span>
+                            <span class="badge-tag">HIGH-DOWNFORCE RS</span>
+                            <h3>2023 Porsche Cayman GT4 RS</h3>
+                            <p>Equipped with our signature rear aerodynamic light bar and aggressive hillclimb/sprint setup.</p>
+                        </div>
+                        <div class="card">
+                            <span class="card-num">#1</span>
+                            <span class="badge-tag">VINTAGE OBS</span>
+                            <h3>1994 Ford F-150 5.0L EFI</h3>
+                            <p>The foundation of our night driving POV series. Twin-Traction Beam front suspension and raw 5.0L V8 exhaust resonance.</p>
+                        </div>
+                        <div class="card">
+                            <span class="card-num">#424</span>
+                            <span class="badge-tag">EV PERFORMANCE</span>
+                            <h3>2026 Porsche Taycan GT</h3>
+                            <p>Dual-motor AWD platform pushing extreme lateral G forces and instant torque delivery through complex road course circuits.</p>
+                        </div>
+                        <div class="card">
+                            <span class="card-num"><span class="tajam-inline">8eston</span></span>
+                            <span class="badge-tag">ENDURANCE SPEC RS</span>
+                            <h3>2025 Porsche Cayman GT4 RS</h3>
+                            <p>Features our custom rear light bar and long-stint endurance pacing setup for tire and thermal management.</p>
+                        </div>
+                        <div class="card">
+                            <span class="card-num"><span class="tajam-inline">525french</span></span>
+                            <span class="badge-tag">HEAVY HAULER</span>
+                            <h3>2022 Ford F-350 Limited Dually</h3>
+                            <p>Power Stroke 6.7L V8 Turbo Diesel with enclosed car hauler setups for multi-car transport simulations across BeamNG terrain.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ===================================================================
+             VIEW 3: CAYMAN SERIES (#caymans)
+             =================================================================== -->
+        <div id="view-caymans" class="page-view">
+            <section class="page-header">
+                <div class="container-wide">
+                    <span class="editorial-tag">MID-ENGINE PURITY</span>
+                    <h1 class="page-title">Porsche Cayman Series</h1>
+                    <p class="page-subtitle">
+                        The mid-engine layout remains our pinnacle benchmark for vehicle dynamics. Explore dedicated Cayman telemetry endpoints and race builds across the network.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section-padding">
+                <div class="container-wide">
+                    <div class="grid-4">
+                        <div class="card">
+                            <span class="card-num"><span class="tajam-inline">323jake</span></span>
+                            <h3>2016 Cayman GT4</h3>
+                            <p>Our flagship turbocharged 2016 Cayman GT4 platform &bull; High-boost CAN-bus logging node.</p>
+                            <div style="margin-top: 1rem;"><a href="https://323.caymans.tr.tysonmediagroup.org" target="_blank" class="btn btn-outline btn-sm">323 Node &nearr;</a></div>
+                        </div>
+                        <div class="card">
+                            <span class="card-num"><span class="tajam-inline">11jackson</span></span>
+                            <h3>2023 Cayman GT4 RS</h3>
+                            <p>Equipped with our signature rear aerodynamic light bar &bull; Precision sprint aero setup.</p>
+                            <div style="margin-top: 1rem;"><a href="https://11.caymans.tr.tysonmediagroup.org" target="_blank" class="btn btn-outline btn-sm">11 Node &nearr;</a></div>
+                        </div>
+                        <div class="card">
+                            <span class="card-num"><span class="tajam-inline">1nicolas</span></span>
+                            <h3>2016 Cayman (NA Flat-6)</h3>
+                            <p>Naturally aspirated flat-six tuned for pure acoustics and mechanical feedback &bull; Driver: T.CUSTINE</p>
+                            <div style="margin-top: 1rem;"><a href="https://cayman.tr.tysonmediagroup.org" target="_blank" class="btn btn-outline btn-sm">1 Node &nearr;</a></div>
+                        </div>
+                        <div class="card">
+                            <span class="card-num"><span class="tajam-inline">8eston</span></span>
+                            <h3>2025 Cayman GT4 RS</h3>
+                            <p>2025 GT4 RS featuring our rear light bar &bull; Long-stint endurance racing setup.</p>
+                            <div style="margin-top: 1rem;"><a href="https://8.caymans.tr.tysonmediagroup.org" target="_blank" class="btn btn-outline btn-sm">8 Node &nearr;</a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ===================================================================
+             VIEW 4: SUPPORT RIGS & TELEMETRY (#trucks)
+             =================================================================== -->
+        <div id="view-trucks" class="page-view">
+            <section class="page-header">
+                <div class="container-wide">
+                    <span class="editorial-tag">TELEMETRY &bull; CHASSIS MASS &bull; TOWING DATA</span>
+                    <h1 class="page-title">Support Rigs &amp; Telemetry</h1>
+                    <p class="page-subtitle">
+                        Heavy transport dynamics, enclosed trailer tow logging, and powertrain thermal telemetry analyzed through BeamNG.drive simulation.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section-padding">
+                <div class="container-wide">
+                    <div class="grid-3">
+                        <div class="card">
+                            <span class="card-num">1.trucks</span>
+                            <span class="badge-tag">NODE LOGGING</span>
+                            <h3>1.trucks Telemetry Node</h3>
+                            <p>Dedicated CAN-bus logging endpoint <code>1.trucks.tr.tysonmediagroup.org</code> for chassis weight transfer and physical force analysis.</p>
+                        </div>
+                        <div class="card">
+                            <span class="card-num">525french</span>
+                            <span class="badge-tag">SIMHUB HAULER</span>
+                            <h3>Heavy Hauler Data Rig</h3>
+                            <p>Multi-car enclosed trailer dynamics, crosswind sway telemetry, and long-distance transport simulation data.</p>
+                        </div>
+                        <div class="card">
+                            <span class="card-num">323.cli</span>
+                            <span class="badge-tag">STATS ENDPOINT</span>
+                            <h3>Fleet Telemetry Server</h3>
+                            <p>Command line metrics and live telemetry relays connecting vehicle sensors to the myT5S distributed cloud.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ===================================================================
+             VIEW 5: TELEMETRY & ENDPOINTS (#telemetry)
+             =================================================================== -->
+        <div id="view-telemetry" class="page-view">
+            <section class="page-header">
+                <div class="container-wide">
+                    <span class="editorial-tag">DISTRIBUTED CLOUD SIMULATION</span>
+                    <h1 class="page-title">Telemetry &amp; Endpoints</h1>
+                    <p class="page-subtitle">
+                        TYSON Racing runs on an interconnected mesh of SimHub, myT5S cloud instances, and BeamNG server relays.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section-padding">
+                <div class="container-wide">
+                    <div class="grid-3">
+                        <div class="card">
+                            <h3>Cayman Telemetry Nodes</h3>
+                            <ul class="telemetry-list">
+                                <li><code>323.caymans.tr.tysonmediagroup.org</code></li>
+                                <li><code>cayman.tr.tysonmediagroup.org</code></li>
+                                <li><code>11.caymans.tr.tysonmediagroup.org</code></li>
+                                <li><code>26.caymans.tr.tysonmediagroup.org</code></li>
+                                <li><code>8.caymans.tr.tysonmediagroup.org</code></li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <h3>Vehicle &amp; Truck Nodes</h3>
+                            <ul class="telemetry-list">
+                                <li><code>1.trucks.tr.tysonmediagroup.org</code></li>
+                                <li><code>424.cars.tr.tysonmediagroup.org</code></li>
+                                <li><code>525.cars.tr.tysonmediagroup.org</code></li>
+                                <li><code>apex.tr.myt5s.app</code></li>
+                                <li><code>323.tysonracing.tysonmediagroup.org</code></li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <h3>SimHub &amp; Driver Stats</h3>
+                            <ul class="telemetry-list">
+                                <li><code>525french.simhub.myt5s.app</code></li>
+                                <li><code>525french.stats.myt5s.app</code></li>
+                                <li><code>323jake.simhub.myt5s.app</code></li>
+                                <li><code>323jake.stats.myt5s.app</code></li>
+                                <li><code>323.cli.stats.myt5s.app</code></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ===================================================================
+             VIEW 6: MOTORSPORT ETHOS (#about)
+             =================================================================== -->
+        <div id="view-about" class="page-view">
+            <section class="page-header">
+                <div class="container-wide">
+                    <span class="editorial-tag">THE DRIVING CODE</span>
+                    <h1 class="page-title">Motorsport Ethos</h1>
+                    <p class="page-subtitle">
+                        TYSON Racing is built upon the belief that automotive passion is best expressed through uncompromised mechanical realism and pure cockpit perspective.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section-padding">
+                <div class="container" style="max-width: 1080px;">
+                    <div style="font-size: 1.25rem; line-height: 1.95; color: var(--text-body); margin-top: 1rem;">
+                        <div class="modal-callout" style="margin: 2.5rem 0 3.5rem 0; text-align: center; border-left: none; border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle); padding: 2.5rem 2rem;">
+                            <span style="font-family: var(--font-heading); font-size: 2.8rem; font-style: italic; color: var(--text-white); display: block; margin-bottom: 0.5rem;">
+                                "Stillness in Motion"
+                            </span>
+                            <span style="font-size: 0.85rem; color: var(--text-dim); letter-spacing: 0.15em; text-transform: uppercase;">
+                                Official Motto &bull; TYSON Racing &bull; BeamNG.drive
+                            </span>
+                        </div>
+
+                        <p style="margin-bottom: 2.25rem;">
+                            Whether dialing in the trailing-throttle oversteer of a Porsche Cayman on a mountain pass or cruising the quiet highways at midnight behind the wheel of a 1994 Ford F-150, our simulations honor the visceral connection between driver and machine.
+                        </p>
+                        <p style="margin-bottom: 2.25rem;">
+                            Operating out of <strong>BeamNG.drive</strong> with custom telemetry and precision physical force feedback, TYSON Racing delivers films and data streams that respect real-world automotive engineering.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Global Footer with Network Directory -->
+    <footer class="main-footer">
+        <div class="container-wide">
+            <div class="footer-grid">
+                <div class="footer-col footer-brand-col">
+                    <img src="assets/LOGOSFORGEMINI/TYSONRacingBanner.png" alt="TYSON Racing" class="footer-logo">
+                    <p class="footer-tagline">Stillness in Motion &bull; The official motorsport division of TYSON Media Group.</p>
+                </div>
+
+                <div class="footer-col">
+                    <span class="footer-col-title">Fleet</span>
+                    <ul>
+                        <li><a href="#caymans">Porsche Cayman 718</a></li>
+                        <li><a href="#caymans">Porsche Cayman 981</a></li>
+                        <li><a href="#garage">Cayman GT4 / GT4 RS</a></li>
+                        <li><a href="#telemetry">1.trucks Telemetry Node</a></li>
+                        <li><a href="#garage">All Garage Builds</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <span class="footer-col-title">Telemetry</span>
+                    <ul>
+                        <li><a href="#telemetry">SimHub Nodes</a></li>
+                        <li><a href="#telemetry">BeamNG Relays</a></li>
+                        <li><a href="#telemetry">Driver Statistics</a></li>
+                        <li><a href="https://myt5s.app" target="_blank">myT5S Cloud Platform &nearr;</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <span class="footer-col-title">Media Group</span>
+                    <ul>
+                        <li><a href="https://tysonmediagroup.org" target="_blank">tysonmediagroup.org &nearr;</a></li>
+                        <li><a href="https://youtube.com/@tysonmediagroup" target="_blank">YouTube Channel &nearr;</a></li>
+                        <li><a href="#about">Company Philosophy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Corporate Network & Domain Directory -->
+            <details class="footer-domain-dropdown">
+                <summary class="footer-domain-summary">
+                    <span class="footer-domain-summary-tag">NETWORK DIRECTORY</span>
+                    <span class="footer-domain-summary-title">Corporate Domains &amp; Endpoints (44)</span>
+                    <svg class="footer-domain-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </summary>
+                <div class="footer-domain-dropdown-body">
+                    <div class="footer-domain-columns">
+                        <div class="footer-domain-col">
+                            <h4>TYSON Media Group Network</h4>
+                            <ul>
+                                <li><a href="https://tysonmediagroup.org" target="_blank" rel="noopener">tysonmediagroup.org &nearr;</a></li>
+                                <li><a href="https://atlantis.tysonmediagroup.org" target="_blank" rel="noopener">atlantis.tysonmediagroup.org &nearr;</a></li>
+                                <li><a href="https://aviation.tysonmediagroup.org" target="_blank" rel="noopener">aviation.tysonmediagroup.org &nearr;</a></li>
+                                <li><a href="https://rpm.tysonmediagroup.org" target="_blank" rel="noopener">rpm.tysonmediagroup.org &nearr;</a></li>
+                                <li><a href="https://myt5s.tysonmediagroup.org" target="_blank" rel="noopener">myt5s.tysonmediagroup.org &nearr;</a></li>
+                                <li><a href="https://publish.myt5s.tysonmediagroup.org" target="_blank" rel="noopener">publish.myt5s.tysonmediagroup.org &nearr;</a></li>
+                                <li><a href="https://malik.myt5s.tysonmediagroup.org" target="_blank" rel="noopener">malik.myt5s.tysonmediagroup.org &nearr;</a></li>
+                                <li><a href="https://stim.t5s.tysonmediagroup.org" target="_blank" rel="noopener">stim.t5s.tysonmediagroup.org &nearr;</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-domain-col">
+                            <h4>myT5S Cloud Platform &amp; Publishing</h4>
+                            <ul>
+                                <li><a href="https://myt5s.app" target="_blank" rel="noopener">myt5s.app &nearr;</a></li>
+                                <li><a href="https://media.myt5s.app" target="_blank" rel="noopener">media.myt5s.app &nearr;</a></li>
+                                <li><a href="https://tmg.myt5s.app" target="_blank" rel="noopener">tmg.myt5s.app &nearr;</a></li>
+                                <li><a href="https://tysonmediagroup.myt5s.app" target="_blank" rel="noopener">tysonmediagroup.myt5s.app &nearr;</a></li>
+                                <li><a href="https://dev.myt5s.app" target="_blank" rel="noopener">dev.myt5s.app &nearr;</a></li>
+                                <li><a href="https://rmm.myt5s.app" target="_blank" rel="noopener">rmm.myt5s.app &nearr;</a></li>
+                                <li><a href="https://rmm.cloud.myt5s.app" target="_blank" rel="noopener">rmm.cloud.myt5s.app &nearr;</a></li>
+                                <li><a href="https://publisher.web.myt5s.app" target="_blank" rel="noopener">publisher.web.myt5s.app &nearr;</a></li>
+                                <li><a href="https://publisher.cli.myt5s.app" target="_blank" rel="noopener">publisher.cli.myt5s.app &nearr;</a></li>
+                                <li><a href="https://custine.myt5s.app" target="_blank" rel="noopener">custine.myt5s.app &nearr;</a></li>
+                                <li><a href="https://custine1.myt5s.app" target="_blank" rel="noopener">custine1.myt5s.app &nearr;</a></li>
+                                <li><a href="https://airjedi.custine.myt5s.app" target="_blank" rel="noopener">airjedi.custine.myt5s.app &nearr;</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-domain-col">
+                            <h4>TYSON Racing &bull; Telemetry &amp; Sim</h4>
+                            <ul>
+                                <li><a href="https://tr.tysonmediagroup.org" target="_blank" rel="noopener">tr.tysonmediagroup.org &nearr;</a></li>
+                                <li><a href="https://323.caymans.tr.tysonmediagroup.org" target="_blank" rel="noopener">323.caymans.tr.tysonmediagroup.org &nearr;</a></li>
+                                <li><a href="https://cayman.tr.tysonmediagroup.org" target="_blank" rel="noopener">cayman.tr.tysonmediagroup.org &nearr;</a></li>
+                                <li><a href="https://424.cars.tr.tysonmediagroup.org" target="_blank" rel="noopener">424.cars.tr.tysonmediagroup.org &nearr;</a></li>
+                                <li><a href="https://11.caymans.tr.tysonmediagroup.org" target="_blank" rel="noopener">11.caymans.tr.tysonmediagroup.org &nearr;</a></li>
+                                <li><a href="https://26.caymans.tr.tysonmediagroup.org" target="_blank" rel="noopener">26.caymans.tr.tysonmediagroup.org &nearr;</a></li>
+                                <li><a href="https://1.trucks.tr.tysonmediagroup.org" target="_blank" rel="noopener">1.trucks.tr.tysonmediagroup.org &nearr;</a></li>
+                                <li><a href="https://525.cars.tr.tysonmediagroup.org" target="_blank" rel="noopener">525.cars.tr.tysonmediagroup.org &nearr;</a></li>
+                                <li><a href="https://8.caymans.tr.tysonmediagroup.org" target="_blank" rel="noopener">8.caymans.tr.tysonmediagroup.org &nearr;</a></li>
+                                <li><a href="https://apex.tr.myt5s.app" target="_blank" rel="noopener">apex.tr.myt5s.app &nearr;</a></li>
+                                <li><a href="https://525french.tr.myt5s.app" target="_blank" rel="noopener">525french.tr.myt5s.app &nearr;</a></li>
+                                <li><a href="https://323jake.tr.myt5s.app" target="_blank" rel="noopener">323jake.tr.myt5s.app &nearr;</a></li>
+                                <li><a href="https://525french.simhub.myt5s.app" target="_blank" rel="noopener">525french.simhub.myt5s.app &nearr;</a></li>
+                                <li><a href="https://525french.stats.myt5s.app" target="_blank" rel="noopener">525french.stats.myt5s.app &nearr;</a></li>
+                                <li><a href="https://323jake.simhub.myt5s.app" target="_blank" rel="noopener">323jake.simhub.myt5s.app &nearr;</a></li>
+                                <li><a href="https://323jake.stats.myt5s.app" target="_blank" rel="noopener">323jake.stats.myt5s.app &nearr;</a></li>
+                                <li><a href="https://323.tysonmediagroup.org" target="_blank" rel="noopener">323.tysonmediagroup.org &nearr;</a></li>
+                                <li><a href="https://323.tysonracing.tysonmediagroup.org" target="_blank" rel="noopener">323.tysonracing.tysonmediagroup.org &nearr;</a></li>
+                                <li><a href="https://323.cloud.myt5s.app" target="_blank" rel="noopener">323.cloud.myt5s.app &nearr;</a></li>
+                                <li><a href="https://323.test.myt5s.app" target="_blank" rel="noopener">323.test.myt5s.app &nearr;</a></li>
+                                <li><span style="color: var(--text-muted); font-size: 0.95em;">323.race-01-12-2024.tyson.ml <small style="opacity: 0.65;">(Inactive)</small></span></li>
+                                <li><span style="color: var(--text-muted); font-size: 0.95em;">323.race-04-21-2024.tyson.ml <small style="opacity: 0.65;">(Inactive)</small></span></li>
+                                <li><a href="https://323.jasonsimhub.myt5s.app" target="_blank" rel="noopener">323.jasonsimhub.myt5s.app &nearr;</a></li>
+                                <li><a href="https://323.cli.stats.myt5s.app" target="_blank" rel="noopener">323.cli.stats.myt5s.app &nearr;</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </details>
+
+            <!-- Centered Italic tr.tysonmediagroup.org Centerpiece -->
+            <div class="footer-domain-centerpiece">
+                <img src="assets/logoforbottomofintrotrace.png" alt="TYSON Racing" class="footer-trace-logo">
+                <div class="footer-domain-title">tr.tysonmediagroup.org</div>
+                <div class="footer-domain-subtext">BeamNG.drive Telemetry &bull; Stillness in Motion</div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>&copy; 2026 TYSON Media Group. All rights reserved. Registered division: <code>tr.tysonmediagroup.org</code></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Temporary Bottom Intro Logo during trace -->
+    <div class="intro-bottom-logo-wrap">
+        <img src="assets/LOGOSFORGEMINI/TYSONRacingBanner.png" alt="TYSON Racing" class="intro-bottom-logo">
+    </div>
+
+    <!-- Theme & Settings Modal -->
+    <div class="settings-modal" id="settings-modal" aria-hidden="true" role="dialog">
+        <div class="settings-modal-backdrop" id="settings-modal-backdrop"></div>
+        <div class="settings-modal-dialog">
+            <button class="settings-modal-close" id="settings-modal-close-btn" aria-label="Close Settings">&times;</button>
+            <div class="settings-header">
+                <h3 class="settings-title">Portal Preferences</h3>
+                <p class="settings-subtitle">Customize aesthetic theme and typography system.</p>
+            </div>
+
+            <div class="settings-section">
+                <h4 class="settings-section-title">Visual Theme</h4>
+                <div class="theme-options-grid">
+                    <button class="theme-option-card selected" data-theme-choice="noir">
+                        <div class="theme-indicator-row">
+                            <span class="theme-option-title">Noir Midnight</span>
+                            <span class="theme-swatch-circle swatch-noir"></span>
+                        </div>
+                        <span class="theme-option-desc">Pure OLED black, high-contrast monochrome typography.</span>
+                    </button>
+
+                    <button class="theme-option-card" data-theme-choice="wii">
+                        <div class="theme-indicator-row">
+                            <span class="theme-option-title">Nintendo Wii</span>
+                            <span class="theme-swatch-circle swatch-wii"></span>
+                        </div>
+                        <span class="theme-option-desc">Retro Wii system UI, rounded geometry, and sky blue accents.</span>
+                    </button>
+
+                    <button class="theme-option-card" data-theme-choice="frutiger">
+                        <div class="theme-indicator-row">
+                            <span class="theme-option-title">Frutiger Aero</span>
+                            <span class="theme-swatch-circle swatch-frutiger"></span>
+                        </div>
+                        <span class="theme-option-desc">Early Apple Aqua glass, deep cyan depth, and glossy finishes.</span>
+                    </button>
+
+                    <button class="theme-option-card" data-theme-choice="nature">
+                        <div class="theme-indicator-row">
+                            <span class="theme-option-title">Nature Botanical</span>
+                            <span class="theme-swatch-circle swatch-nature"></span>
+                        </div>
+                        <span class="theme-option-desc">Evergreen forest canopy, moss botanicals, and organic warmth.</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="settings-section" style="margin-bottom: 0;">
+                <button id="replay-intro-btn" class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;">
+                    <span>Replay Launch Intro Sequence &circlearrowright;</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

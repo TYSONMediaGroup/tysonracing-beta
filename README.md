@@ -20,7 +20,4 @@ Official motorsport and racing media platform for **TYSON Media Group** ([tr.tys
 
 ## Overview
 
-High-octane automotive racing platform delivering track coverage, telemetry highlights, and motorsport features.
-
-- **Responsive Experience**: Crafted for desktop and mobile displays
-- **Optimized Performance**: Pure native web standards without external client runtime overhead
+tr.tysonmediagroup.org will soon migrate to > racing.tysonmediagroup.org + racing.rpm.tysonmediagroup.org
